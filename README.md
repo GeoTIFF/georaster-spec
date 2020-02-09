@@ -7,7 +7,7 @@ Work In Progress: Specification for GeoRaster, a Standardized Interface for Acce
 | noDataValue | number | no data value |
 | pixelWidth | number | width of pixel in dimension of coordinate reference system |
 | pixelHeight | number | height of pixel in dimension of coordinate reference system |
-| projection | number | equal to EPSG code, like 4326 |
+| projection | { code, wkt } | object that holds two properties, the epsg code and well known text representation of the projection |
 | width | number | number of pixels wide raster is |
 | xmax | number | xmax in crs, which is often in longitude |
 | xmin | number | xmin in crs, which is often in longitude |
