@@ -4,6 +4,7 @@ Work In Progress: Specification for GeoRaster, a Standardized Interface for Acce
 # required properties
 | name | type | description |
 | ---- | ---- | ----------- |
+| geotransform | number[] | 6 coefficients for affine transformations ([reference](https://gdal.org/tutorials/geotransforms_tut.html)) | 
 | noDataValue | number | no data value |
 | pixelWidth | number | width of pixel in dimension of coordinate reference system |
 | pixelHeight | number | height of pixel in dimension of coordinate reference system |
